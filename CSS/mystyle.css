@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 5%;
+}
+/* Header */
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header, .credit{
+    background-color: #085070;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Top container */
+#banner-image img{
+    width: 100%;
+}
+.top-container{
+  padding: 85px 0 0;
+  
+}
+.middle-puppy{
+    background-color: #f84d64;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 2%;
+    max-height: 310px;
+    display: none;
+}
+.puppy-missing{
+    padding: 80px;
+}
+.puppy-container{
+    padding: 0 0 40px 0;
+}
+.puppy-container img{
+    width: 100%;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Bottom section */
+.vertical-puppies-section{
+    padding: 20px 0px 100px;
+}
+.vertical-puppies-section img{
+    width: 100%;
+}
+
+footer .container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/****************************************************/
+/* Media-query */
+/***************************************************/
+@media(min-width: 720px){
+.container{
+    width: 680px;
+    padding: 0 10px;
+    margin: 0 auto;
+    }
+
+.top-container .container{
+    display: flex;
+}
+.puppy-container, .middle-puppy{
+    width: 33%;
+}
+.middle-puppy{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 2%;
+    height: 218px;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 65px;
+}
+.puppy-missing{
+    padding: 40px;
+}
+.vertical-puppies-wrapper{
+    display: flex;
+}
+.puppy-container-vertical{
+    width: 48%;
+    padding: 0; 
+}
+.puppy-container-vertical-left{
+    margin-right: 1%;
+}
+.puppy-container-vertical-right{
+    margin-left: 1%;
+}
+}
+
+
+
+@media(min-width: 1020px){
+.container{
+    width: 980px;
+    }
+.top-container .container{
+    display: flex;
+     }
+.puppy-container, .middle-puppy{
+    display: inline-block;
+    width: 33%;
+    }
+.puppy-missing{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+.middle-puppy{
+    height: 315px;
+}
+
+.vertical-puppies-wrapper{
+    display: flex;
+    width: 980px;
+    }
+.puppy-container-vertical-left{
+    width: 50%;
+}
+.puppy-container-vertical-right img{
+    height: 580px;
+}
+.section-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 65px;
+    
+}
+}
+
